@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+	<title>登录</title>
+	<link href="https://cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+	<style>
+	body{background:url(./img/blogin.png) no-repeat top; padding-top:100px;}
+	.logo h2{color:#fff;margin-top: 30px; text-align: center; margin-bottom:30px;}
+	.container{
+
+		    width: 360px;
+		    margin: 0 auto;
+		    margin-bottom: 0px;
+		    padding: 30px;
+		    padding-top: 20px;
+		    padding-bottom: 15px;
+		    border-radius: 5px !important;
+		    overflow: hidden;
+		    border: 1px solid rgba(255,255,255,0.7);
+		    box-shadow: 0 0 10px 2px rgba(0,0,0,0.2);
+	}
+	.container .f-text{
+		text-align: left;
+	}
+	.container .col-sm-9{padding-left:0;}
+	.btn{
+		padding:5px 30px;
+	    background:#a29a9a; 
+	    color:#fff;
+	}
+	.fl{float:left;}
+	.fr{float: right;}
+	.f-bt{    
+		margin-top: 30px;
+   		padding-left: 32px;
+   	}
+	</style>
+</head>
+<body>
+	<div class="logo" style="width: 360px;margin: 0 auto;">
+		<h2 class="form-title" style="">便E批仓储管理系统</h2>	
+	</div>
+	<div class="container">
+		
+		<form class="form-horizontal" id="myform">
+		  <div class="form-group">
+		    <label for="username" class="col-sm-3 control-label f-text">用户名</label>
+		    <div class="col-sm-9">
+		      <input type="text" class="form-control" id="username" name="username" placeholder="输入用户名">
+		    </div>
+		    <div class="text-error"></div>
+		  </div>
+		  <div class="form-group">
+		    <label for="password" class="col-sm-3 control-label f-text">密码</label>
+		    <div class="col-sm-9">
+		      <input type="text" class="form-control" id="password" name="password" placeholder="输入密码">
+			  
+		    </div>
+		    <div class="text-error"></div>
+		  </div>
+		  <div class="form-group">
+				<label class="control-label col-sm-3 "for="certify" style="text-align: left;">验证码</label>
+				<div class="controls input-group ">
+					<input type="text" data-bind="value:certifycode" class="form-control" id="certify" name="certify" value="" placeholder=""style="width:45%;"/>
+					<span style="margin-left: 10px;" class="" id="imgset"><a href="javascript:void(0);" id="cerimg" style="width:100px;" ><img src="#{request.contextPath}/kaptcha/kaptcha/kaptcha.ktc?id='+Math.random()+'" width="110" height="33"/></a></span>					
+				</div>
+				 <div class="text-error"></div>
+			</div>		  
+		  <div class="form-group f-bt">
+		    <div class="col-sm-6 fl">
+		      <button class="btn btn-default " id="login">登录</button>
+		      
+		    </div>
+		    <div class="col-sm-6 fr">
+		      <input type="button" class="btn btn-default " value="重置" />
+		      
+		    </div>
+		  </div>
+		</form>	
+	</div>
+</body>
+<!-- <script src="https://cdn.bootcss.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script> -->
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" language="JavaScript" src="js/jquery.validate.min.js"></script>
+
+<script type="text/javascript" src="js/login.js"></script>
+</html>

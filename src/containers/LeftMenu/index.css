@@ -1,0 +1,78 @@
+.app-sider{
+  height:100%;
+  /* border-right:1px solid #d6d9dc; */
+  border-radius: 2px 2px 0 0;
+  overflow-x: hidden;
+  overflow-y:auto;
+  border-radius: 0;
+}
+.ly-sider :last-child{
+  padding-bottom: 80px;
+}
+.ant-menu-dark{
+  color:#fff;
+}
+.ant-menu-dark.ant-menu-inline{
+  padding-top: 8px;
+}
+/* .leftmenu-control {
+  width:100%;
+  height: 34px;
+  color: #888;
+  font-size: 18px; 
+  cursor: pointer;
+  transition: color 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), border-color 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), background 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), padding 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+  text-align: center;
+  background:#ddeaff;
+  padding-top: 4px;
+}
+.leftmenu-control:hover {
+  color: #1e82d2;
+}
+.leftmenu{
+  width:100%;
+  border-right:0;
+}
+.leftmenu-item{
+  color: #333;
+  font-weight: 600;
+}
+.ant-menu-item > a{
+  font-weight: 500;
+  color: #333;
+}
+.ant-layout-sider-collapsed{
+  flex: 0 0 60px;
+    max-width: 60px;
+    min-width: 60px;
+    width: 60px;
+}
+.ant-menu-inline .ant-menu-submenu-title:link, .ant-menu-inline .ant-menu-submenu-title:visited, .ant-menu-inline .ant-menu-submenu-title:hover, .ant-menu-inline .ant-menu-submenu-title:active{
+  background: #fff;
+}
+.ant-menu-sub.ant-menu-inline > .ant-menu-item:link,.ant-menu-sub.ant-menu-inline > .ant-menu-item:visited,.ant-menu-sub.ant-menu-inline > .ant-menu-item:hover,.ant-menu-sub.ant-menu-inline > .ant-menu-item:hover{
+  background:transparent;
+}
+.ant-menu-submenu > .ant-menu > .ant-menu-item-selected{
+  background:#f3f3f3;
+}
+.ant-menu-submenu > .ant-menu > .ant-menu-item-selected a{
+  color:#1890ff;
+}
+.ant-menu-vertical .ant-menu-item:after, .ant-menu-vertical-left .ant-menu-item:after, .ant-menu-vertical-right .ant-menu-item:after, .ant-menu-inline .ant-menu-item:after{
+  border:none;
+}
+.ant-layout-sider .leftmenu-control .anticon{
+  margin-right:12px;
+  float:right;
+  margin-top:3px;
+}
+.ant-layout-sider-collapsed .leftmenu-control .anticon{
+  margin-right:28px;
+}
+.ant-menu-sub.ant-menu-inline{
+  background:#f2f2f2;
+}
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected{
+  background:#f2f2f2;
+} */

@@ -1,0 +1,28 @@
+{
+  "name": "phoenix-merchant",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.0.3",
+    "bizcharts": "^3.1.0-beta.6",
+    "lodash": "^4.17.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.17",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.6.3"
+  },
+  "proxy": "http://192.168.1.168:8080"
+}
